@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class NetworkUtils {
     //BASE_URL and QUERY_PARAMETER constants
     final static String BASE_URL = "https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey=9a4e1c9d357a47b9afe4bbe54e2dfe2f";
-    final static String QUEREY_PARAMETER = "q";
 
     //Builds appropreiate URL based on URI Builder
     public static URL buildUrl(String searchQuery){
